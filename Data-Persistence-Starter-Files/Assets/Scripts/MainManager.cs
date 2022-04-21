@@ -54,6 +54,7 @@ public class MainManager : MonoBehaviour
         }
         CurrentPlayName.text = PlayerData.Instance.PlayerName;
         SetBestPlayer();
+        Debug.Log("Score: " + PlayerData.Instance.Score);
     }
 
     private void Update()
